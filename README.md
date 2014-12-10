@@ -6,7 +6,9 @@ autoban-ip-ddos
  ```sh
  sudo mkdir /opt/autoban
  
- sudo cp autoban.sh /opt/autoban
+ sudo cp autoban.sh /opt/autoban/
+ 
+ sudo chmod +x /opt/autoban/autoban.sh
  
  sudo cp autoban-initd /etc/init.d/autoban
  
