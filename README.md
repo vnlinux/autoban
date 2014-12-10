@@ -1,8 +1,9 @@
 autoban-ip-ddos
 ===============
 
-'''Install:'''
+## Install:
  
+ ```sh
  sudo mkdir /opt/autoban
  
  sudo cp autoban.sh /opt/autoban
@@ -12,12 +13,19 @@ autoban-ip-ddos
  sudo /sbin/chkconfig autoban --add
  
  sudo /sbin/chkconfig autoban on
+```
 
-'''Start service:'''
+## Start service:
+```sh
  sudo service autoban start
+```
 
-'''Stop service:'''
+## Stop service:
+```sh
  sudo service autoban stop
+```
 
-'''Restart service:'''
+## Restart service:
+```sh
  sudo service autoban restart
+```
