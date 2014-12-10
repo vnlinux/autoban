@@ -1,8 +1,7 @@
 autoban-ip-ddos
 ===============
 
-Install:
- ==
+-- Install:
  
  sudo mkdir /opt/autoban
  
