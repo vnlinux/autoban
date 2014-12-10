@@ -1,6 +1,6 @@
 #!/bin/bash
 #-----------------------
-# Scriptps for
+# Auto block ip DDoS automatically by parsing nginx accesslog file
 #
 while :
 do
